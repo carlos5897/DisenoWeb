@@ -1,0 +1,230 @@
+html{
+    height: 100%;
+}
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+
+.contenedor{
+    flex: 1 0 auto;
+    display: flex;
+    background-color: rgb(20, 159, 240);
+}
+
+
+section{
+    margin: 0px 0px;
+    padding: 10px 30px;
+    flex: 0 1 80%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+section h3{
+    margin: 15px;
+}
+
+
+article{
+    margin: 15px 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px 20px;
+    background-color: white;
+    box-shadow: 6px 6px 9px 0px gray;
+}
+
+
+article p{
+    margin: 10px 0px 0px 0px;
+}
+
+
+article span{
+    font-weight: bold;
+}
+
+
+aside{
+    border: 1px solid rgb(7, 135, 209);
+    border-radius: 20px;
+    margin: 70px 30px 20px 30px;
+    background-color: rgb(0, 204, 255);
+    width: 200px;
+}
+
+
+aside h4{
+    margin: 5px 15px;
+}
+
+
+aside ul{
+    list-style: none;
+    padding: 0px;
+    margin: 5px 15px;
+}
+
+
+aside a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+
+header{
+    flex: 0 0 auto;
+    background-color: rgb(0, 204, 255);
+}
+
+
+.head {
+    display: flex;
+    align-items: center;
+}
+
+
+.head img{
+    margin: 15px 0px 15px 30px;
+    width: 100px;
+    height: 100px;
+}
+
+
+.Informaciongeneral{
+    margin: 0px 15px;
+}
+
+
+.Informaciongeneral h1{
+    margin: 5px 0px;
+    color: rgb(0, 0, 0);
+}
+
+
+.Informaciongeneral h2{
+    margin: 5px 0px;
+    color: rgb(0, 0, 0);
+}
+
+
+nav{
+    background-color: rgb(14, 135, 206);
+    padding: 20px; 
+}
+
+
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+    list-style: none;
+    flex-direction: column;
+}
+
+
+header a{
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+header a:hover{
+    background-color: rgb(110, 247, 76);
+    color: rgb(0, 4, 255);
+}
+
+
+#inicioSesion{
+    float: right;
+    margin: 20px 25px 0px 0px; 
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    background-color: black;
+    flex: 0 0 auto;
+}
+
+
+.foot{
+    display: flex;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    padding: 10px 0px;
+    justify-content: space-around;
+    background-color: rgb(0, 204, 255);
+}
+
+
+.contactodelfooter, .menu_footer{
+    display: flex;
+    flex-direction: column;
+    flex: 10 10 auto;
+}
+
+
+.redessocialesfoter{
+    display: flex;
+    flex-direction: column;
+    flex: 10 10 auto;
+}
+ 
+
+.enlacesinteresfooter{
+    display: flex;
+    flex-direction: column;
+    flex: 10 10 auto;
+}
+
+
+.menudefooter{
+    display: flex;
+    flex-direction: column;
+    flex: 10 10 auto;
+}
+
+
+.foot img{
+    height: 80%;
+    width: 200px;
+    margin: 10px 20px;
+}
+
+
+.foot ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+
+.foot a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+footer p{
+    color: rgb(255, 255, 255);
+    margin: 5px 0px;
+}
+
+
+footer i{
+    font-size: 30px;
+}
