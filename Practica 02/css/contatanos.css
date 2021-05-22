@@ -236,6 +236,7 @@ fieldset {
     width: 700px;
 }
 
-
-
+fieldset input{
+    margin: 10px 0px 0px 20px; 
+    }
 
